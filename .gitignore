@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# SwiftPM
+.swiftpm
+.build/
+
+# IDE preferences
+.idea/
+*.sw?
+
+# Playground & logs
+*.playground
+*.log
+
+# Byproducts
+*.metalmap
+*.sym
+*.dSYM/
