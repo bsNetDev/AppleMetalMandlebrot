@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		92DAA52D2E3324E700E9A329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DAA5162E3324E600E9A329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DAA51D2E3324E600E9A329;
+			remoteInfo = MetalComputeDemo;
+		};
+		92DAA5372E3324E700E9A329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DAA5162E3324E600E9A329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DAA51D2E3324E600E9A329;
+			remoteInfo = MetalComputeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92DAA51E2E3324E600E9A329 /* MetalComputeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalComputeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DAA52C2E3324E700E9A329 /* MetalComputeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalComputeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DAA5362E3324E700E9A329 /* MetalComputeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalComputeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92DAA5202E3324E600E9A329 /* MetalComputeDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalComputeDemo;
+			sourceTree = "<group>";
+		};
+		92DAA52F2E3324E700E9A329 /* MetalComputeDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalComputeDemoTests;
+			sourceTree = "<group>";
+		};
+		92DAA5392E3324E700E9A329 /* MetalComputeDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetalComputeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DAA51B2E3324E600E9A329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA5292E3324E700E9A329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA5332E3324E700E9A329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DAA5152E3324E600E9A329 = {
+			isa = PBXGroup;
+			children = (
+				92DAA5202E3324E600E9A329 /* MetalComputeDemo */,
+				92DAA52F2E3324E700E9A329 /* MetalComputeDemoTests */,
+				92DAA5392E3324E700E9A329 /* MetalComputeDemoUITests */,
+				92DAA51F2E3324E600E9A329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DAA51F2E3324E600E9A329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DAA51E2E3324E600E9A329 /* MetalComputeDemo.app */,
+				92DAA52C2E3324E700E9A329 /* MetalComputeDemoTests.xctest */,
+				92DAA5362E3324E700E9A329 /* MetalComputeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DAA51D2E3324E600E9A329 /* MetalComputeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DAA5402E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemo" */;
+			buildPhases = (
+				92DAA51A2E3324E600E9A329 /* Sources */,
+				92DAA51B2E3324E600E9A329 /* Frameworks */,
+				92DAA51C2E3324E600E9A329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92DAA5202E3324E600E9A329 /* MetalComputeDemo */,
+			);
+			name = MetalComputeDemo;
+			packageProductDependencies = (
+			);
+			productName = MetalComputeDemo;
+			productReference = 92DAA51E2E3324E600E9A329 /* MetalComputeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DAA52B2E3324E700E9A329 /* MetalComputeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DAA5432E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemoTests" */;
+			buildPhases = (
+				92DAA5282E3324E700E9A329 /* Sources */,
+				92DAA5292E3324E700E9A329 /* Frameworks */,
+				92DAA52A2E3324E700E9A329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DAA52E2E3324E700E9A329 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92DAA52F2E3324E700E9A329 /* MetalComputeDemoTests */,
+			);
+			name = MetalComputeDemoTests;
+			packageProductDependencies = (
+			);
+			productName = MetalComputeDemoTests;
+			productReference = 92DAA52C2E3324E700E9A329 /* MetalComputeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DAA5352E3324E700E9A329 /* MetalComputeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DAA5462E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemoUITests" */;
+			buildPhases = (
+				92DAA5322E3324E700E9A329 /* Sources */,
+				92DAA5332E3324E700E9A329 /* Frameworks */,
+				92DAA5342E3324E700E9A329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DAA5382E3324E700E9A329 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92DAA5392E3324E700E9A329 /* MetalComputeDemoUITests */,
+			);
+			name = MetalComputeDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = MetalComputeDemoUITests;
+			productReference = 92DAA5362E3324E700E9A329 /* MetalComputeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DAA5162E3324E600E9A329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					92DAA51D2E3324E600E9A329 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					92DAA52B2E3324E700E9A329 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 92DAA51D2E3324E600E9A329;
+					};
+					92DAA5352E3324E700E9A329 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 92DAA51D2E3324E600E9A329;
+					};
+				};
+			};
+			buildConfigurationList = 92DAA5192E3324E600E9A329 /* Build configuration list for PBXProject "MetalComputeDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DAA5152E3324E600E9A329;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92DAA51F2E3324E600E9A329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DAA51D2E3324E600E9A329 /* MetalComputeDemo */,
+				92DAA52B2E3324E700E9A329 /* MetalComputeDemoTests */,
+				92DAA5352E3324E700E9A329 /* MetalComputeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DAA51C2E3324E600E9A329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA52A2E3324E700E9A329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA5342E3324E700E9A329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DAA51A2E3324E600E9A329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA5282E3324E700E9A329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DAA5322E3324E700E9A329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DAA52E2E3324E700E9A329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DAA51D2E3324E600E9A329 /* MetalComputeDemo */;
+			targetProxy = 92DAA52D2E3324E700E9A329 /* PBXContainerItemProxy */;
+		};
+		92DAA5382E3324E700E9A329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DAA51D2E3324E600E9A329 /* MetalComputeDemo */;
+			targetProxy = 92DAA5372E3324E700E9A329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92DAA53E2E3324E700E9A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DAA53F2E3324E700E9A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		92DAA5412E3324E700E9A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalComputeDemo/MetalComputeDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92DAA5422E3324E700E9A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalComputeDemo/MetalComputeDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92DAA5442E3324E700E9A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalComputeDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalComputeDemo";
+			};
+			name = Debug;
+		};
+		92DAA5452E3324E700E9A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalComputeDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalComputeDemo";
+			};
+			name = Release;
+		};
+		92DAA5472E3324E700E9A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetalComputeDemo;
+			};
+			name = Debug;
+		};
+		92DAA5482E3324E700E9A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prestigeWorldwide.MetalComputeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetalComputeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DAA5192E3324E600E9A329 /* Build configuration list for PBXProject "MetalComputeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DAA53E2E3324E700E9A329 /* Debug */,
+				92DAA53F2E3324E700E9A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DAA5402E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DAA5412E3324E700E9A329 /* Debug */,
+				92DAA5422E3324E700E9A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DAA5432E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DAA5442E3324E700E9A329 /* Debug */,
+				92DAA5452E3324E700E9A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DAA5462E3324E700E9A329 /* Build configuration list for PBXNativeTarget "MetalComputeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DAA5472E3324E700E9A329 /* Debug */,
+				92DAA5482E3324E700E9A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DAA5162E3324E600E9A329 /* Project object */;
+}
