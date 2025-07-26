@@ -2,7 +2,7 @@
 //  MetalComputeDemoUITestsLaunchTests.swift
 //  MetalComputeDemoUITests
 //
-//  Created by Ishmael Sessions on 7/24/25.
+//  Created by Bryan Sessions on 7/24/25.
 //
 
 import XCTest

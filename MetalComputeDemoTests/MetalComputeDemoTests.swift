@@ -2,7 +2,7 @@
 //  MetalComputeDemoTests.swift
 //  MetalComputeDemoTests
 //
-//  Created by Ishmael Sessions on 7/24/25.
+//  Created by Bryan Sessions on 7/24/25.
 //
 
 import Testing

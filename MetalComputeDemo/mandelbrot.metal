@@ -2,7 +2,7 @@
 //  mandelbrot.metal
 //  MetalComputeDemo
 //
-//  Created by Ishmael Sessions on 7/25/25.
+//  Created by Bryan Sessions on 7/25/25.
 //
 
 #include <metal_stdlib>
